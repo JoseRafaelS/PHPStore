@@ -1,0 +1,328 @@
+/* Estilo genersles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: rgb(240, 236, 236);
+   
+}
+img{
+    height: 100px;
+}
+
+a{
+    color: #01b1ea;
+}
+a:visited{
+    color: #01b1ea;
+}
+a:hover{
+    color: #555;
+}
+/* container */
+ #container{
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px gray;
+}
+/* header */
+#header{
+    width: 100%;
+    height: 145px;
+    background: #fff;
+}
+
+#logo{
+    padding: 20px;
+    margin-left: 20px;
+}
+#logo a{
+    float: left;
+    font-size: 30px;
+    letter-spacing:4px;
+    font-family: Helvetica,Arial,  sans-serif;
+    text-transform: uppercase;
+    color: #01b1ea;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 18px;
+    margin-left: 25px;
+    text-shadow:0px 2px 1px #222222 ;
+    transition: all 300ms;
+}
+
+#logo a:hover{
+    text-shadow:0px 2px 1px #222222, 0px 0px  4px #01b1ea;
+
+}
+
+#logo img{
+    height:100px;
+    float: left;
+    
+}
+
+#menu{
+    clear: both;
+    background:#222;
+    color:white;
+    height: 50px;
+    border-bottom: 1px solid #01b1ea;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0 auto;
+    margin-left: 55px;
+}
+
+#menu ul li{
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #363636;
+    line-height: 30px;
+    transition: all 300ms;
+}
+#menu ul li:first-child{
+    border-left: 1px solid #363636;
+}
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#menu li:hover{
+    background: #01b1ea;
+}
+
+#contenido{
+    margin: 0 auto;
+    width: 25%;
+    min-height: 500px;
+    background: white;
+    overflow: hidden;
+    float: left;
+}
+#aside{
+    width: 90%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#aside ul{
+    margin-top: 15px;
+}
+#aside ul li{
+    list-style: square;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.block_aside h3{
+    display: block;
+    color: #222;
+    width: 100%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #e1e1e1;
+    border-bottom: 2px solid #01b1ea#01b1ea;
+}
+
+input[type="text"],
+select,
+input[type="contra"],
+input[type="email"],
+input[type="file"],
+input[type="password"],textarea{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #696969;
+    box-shadow: 0px 0px 2px #ccc inherit;
+    background: white;
+    padding: 2px;
+    transition: all 300ms;
+}
+
+input[type="submit"]{
+    display: block;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: auto;
+    padding: 5px;
+    color: white;
+    background:#01b1ea;
+    border: 1px solid #11608e;
+    cursor: pointer;
+}
+label{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#central{
+    width:75%;
+    min-height: 500px;
+    border-left : 1px solid #ccc;
+    float: right;
+    box-shadow: -5px -1px 5px #ddde;
+}
+
+#central h1{
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.prduct {
+    width: 25%;
+    float: left;
+    margin: 0px 30px auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.prduct h2{
+    font-size: 18px;
+    font-weight: normal;
+} 
+
+.prduct .buttom{
+    display: block;
+    border-radius: 2px;
+    margin: 0 auto;
+    width: auto;
+    padding: 5px;
+    color: white;
+    background:#01b1ea;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+ .prduct p {
+    margin-top:3x;
+    margin-bottom: 5px;
+}
+footer{
+    clear: both;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    background: #222222;
+    color: white;
+    border-top: 5px solid #01b1ea;
+    
+}
+
+.save{
+    display: block;
+    background:rgb(130, 248, 219);
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    
+}
+.error{
+    background:rgb(236, 92, 140);
+    margin-top: 5px;
+}
+.er{
+    display: block;
+    color: red;
+    text-align: center;
+}
+
+
+
+table{
+    border: 1px solid #ccc;
+    width: 80%;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+td{
+    border-top: 1px solid #ccc;
+}
+
+.buttom{
+    width: 120px;
+    color: white !important;
+    background: green;
+    padding: 10px 10px;
+    text-align: center;
+    border:1px solid #ccc;
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin-left: 10%;
+}
+
+.buttom:hover{
+    background: rgb(134, 229, 134);
+}
+
+.boton{
+    text-decoration: none;
+    color: #000 !important;
+    border: 1px solid black;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    background: rgb(230, 90, 90);
+}
+.editar{
+
+    text-decoration: none;
+    color: #000 !important;
+    border: 1px solid black;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    background: rgb(113, 243, 119);
+}
+
+.editar:hover{
+    background: rgb(8, 167, 8);
+    color: white !important;
+}
+
+.boton:hover{
+    background: rgb(226, 22, 84);
+    color: white !important;
+}
+
+
+
+
+
+
